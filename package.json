@@ -11,6 +11,7 @@
     "typescript": "4.7.4"
   },
   "dependencies": {
-    "oci-common": "2.38.0"
+    "oci-common": "2.38.0",
+    "oci-objectstorage": "2.38.0"
   }
 }

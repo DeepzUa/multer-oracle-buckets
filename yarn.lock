@@ -58,6 +58,11 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
   integrity sha512-NfJ4UzBCcQGLDlQq7nHxH+tv3kyZ0hHQqF5BO6J7tNJeP5do1llPr8dZ8zHonfhAu0PHAdMkSo+8o0wxg9lZWw==
 
+await-semaphore@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/await-semaphore/-/await-semaphore-0.1.3.tgz#2b88018cc8c28e06167ae1cdff02504f1f9688d3"
+  integrity sha512-d1W2aNSYcz/sxYO4pMGX9vq65qOTu0P800epMud+6cYYX0QcT7zyqcxec3VWzpgvdXo57UWmVbZpLMjX2m1I7Q==
+
 bcrypt-pbkdf@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
@@ -259,6 +264,23 @@ oci-common@2.38.0:
     opossum "5.0.1"
     sshpk "1.16.1"
     uuid "3.3.3"
+
+oci-objectstorage@2.38.0:
+  version "2.38.0"
+  resolved "https://registry.yarnpkg.com/oci-objectstorage/-/oci-objectstorage-2.38.0.tgz#58fb188838e4b170ffe71de4cbe9774dd158d650"
+  integrity sha512-1aP/+8m2ELTucjo3NDQcXnKnhr+SHmfxT91wyLECwS78eq40hqYPvggdQ1qoNHFeCjSWTmTp7TQcSNaz2S9/BA==
+  dependencies:
+    await-semaphore "^0.1.3"
+    oci-common "2.38.0"
+    oci-workrequests "2.38.0"
+
+oci-workrequests@2.38.0:
+  version "2.38.0"
+  resolved "https://registry.yarnpkg.com/oci-workrequests/-/oci-workrequests-2.38.0.tgz#fba5f626f6f5f16c8ee74c92a8f282b89658298e"
+  integrity sha512-jWuSDU7+L8oxYediQFrBHzD+7gM6GIE4mBG1BmZg/dfOlqZSkS30b6n+C4xejhsUqca+8VTgfzBoK2vuTO4Ysg==
+  dependencies:
+    oci-common "2.38.0"
+    oci-workrequests "2.38.0"
 
 opossum@5.0.1:
   version "5.0.1"
