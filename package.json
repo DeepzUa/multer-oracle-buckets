@@ -9,5 +9,8 @@
   "private": false,
   "devDependencies": {
     "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "oci-common": "2.38.0"
   }
 }
