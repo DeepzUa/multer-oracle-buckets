@@ -1,7 +1,7 @@
 {
   "name": "multer-oracle-buckets",
   "version": "1.0.0",
-  "description": "multer storage engine for oracle cloud buckets",
+  "description": "Multer storage engine for oracle cloud buckets",
   "main": "lib/index.js",
   "repository": "https://github.com/DeepzUa/multer-oracle-buckets",
   "author": "Pavlo Chmykh",
