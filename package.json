@@ -1,17 +1,33 @@
 {
   "name": "multer-oracle-buckets",
   "version": "1.0.0",
-  "description": "multer storage engine for oracle cloud buckets",
-  "main": "index.js",
+  "description": "Multer storage engine for oracle cloud buckets",
+  "main": "lib/index.js",
   "repository": "https://github.com/DeepzUa/multer-oracle-buckets",
   "author": "Pavlo Chmykh",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "multer",
+    "node",
+    "oracle",
+    "buckets",
+    "oci",
+    "cloud",
+    "storage"
+  ],
   "devDependencies": {
+    "@types/multer": "1.4.7",
+    "@types/uuid": "8.3.4",
     "typescript": "4.7.4"
   },
   "dependencies": {
+    "multer": "1.4.5-lts.1",
     "oci-common": "2.38.0",
-    "oci-objectstorage": "2.38.0"
+    "oci-objectstorage": "2.38.0",
+    "uuid": "8.3.2"
   }
 }
