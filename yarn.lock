@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@jorgeferrero/stream-to-buffer@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@jorgeferrero/stream-to-buffer/-/stream-to-buffer-2.0.6.tgz#0d0c22f9adb66ce5e3e6a7f7e435407ce6d71675"
+  integrity sha512-G7jiBkMwDdYADntdV/qzl9H4Lkch0RyektqXl5+KhktduP4/rE1RaTz0wKZFdC2dKo3S0JaxoUUC3uDeXmI7EQ==
+
 "@types/asn1@*":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@types/asn1/-/asn1-0.2.0.tgz#23b568688b321740bd4eafef49e6b13ffc101b31"
